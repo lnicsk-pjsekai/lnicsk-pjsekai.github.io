@@ -1,5 +1,7 @@
 ## A Simple Page of couple `ichisaki` from Project Sekai Colorful Stage! feat. Hatsune Miku
 
+![](images/2d8678241dda8ebd998089aca554adcf61ed7767.jpeg)
+
 based on [HTML5UP Template `Massively`](https://html5up.net/massively/).
 
 ## Massively by HTML5 UP
