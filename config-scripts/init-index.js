@@ -2,9 +2,7 @@ var _config_index = {
     intro: {
         title: [ "Arctic Flora Shop", "of ICHISAKI" ],
         content: `
-A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>
-<br />
-and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.
+青梅竹马一起啤酒烧烤。
         `,
     },
     postfeat: {
@@ -12,11 +10,11 @@ and released for free under the <a href="https://html5up.net/license">Creative C
         desc: "The Main Blog of our ICHISAKI Works",
         url: "sekai/",
         content: `
-<del>具体描述，我们所塑造的ichisaki的世界。</del>
+<del>(我们的主站，基于<a href="https://hexo.io/zh-cn/"><code>Hexo</code>博客框架</a>搭建。)</del>
 <br />
-我们的主站，基于<a href="https://hexo.io/zh-cn/">Hexo博客框架</a>搭建。
+<h3><code>Leo/need</code>の始まり</h3>
         `,
-        cover: "images/pjsekai-colorfullive-1st-leoneed-screenshot-01.jpeg",
+        cover: "images/live1st-leoneed-screenshot-fromtokyo.jpeg",
     },
     posts: [
         {   date: "Feb 14<sup>th</sup>, 2022",

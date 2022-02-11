@@ -8,6 +8,7 @@
 */
 
 :root {
+    --url-background: url("../../images/2d8678241dda8ebd998089aca554adcf61ed7767.jpeg");
     --wrapper-lingrad-background: linear-gradient(
         60deg,
         rgba(0, 43, 54, 0.256),
@@ -292,9 +293,9 @@ input, select, textarea {
 	code {
 		border: solid 2px;
 		font-family: "Courier New", monospace;
-		font-size: 0.9rem;
-		margin: 0 0.25rem;
-		padding: 0.25rem 0.65rem;
+		/*font-size: 0.9rem;*/
+		margin: 0 /*0.25rem*/ 0.15rem;
+		padding: 0.25rem /*0.65rem*/ 0.25rem;
 	}
 
 	pre {
@@ -3280,7 +3281,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: var(--color-fore);
-			background-image: url("../../images/overlay.png"), var(--wrapper-lingrad-background), url("../../images/2d8678241dda8ebd998089aca554adcf61ed7767.jpeg");
+			background-image: url("../../images/overlay.png"), var(--wrapper-lingrad-background), var(--url-background);
 			background-size: auto, auto, 100% auto;
 			background-size: auto, auto, cover;
 			background-position: center, center, top center;
@@ -4304,7 +4305,9 @@ input, select, textarea {
 						-webkit-flex-grow: 0;
 						-ms-flex-grow: 0;
 						flex-grow: 0;
-						width: 6rem;
+						/*width: 6rem;*/
+						min-width: 6rem;
+						padding: 0 .39rem;
 					}
 
 					#footer > section.split.contact > section > :last-child {

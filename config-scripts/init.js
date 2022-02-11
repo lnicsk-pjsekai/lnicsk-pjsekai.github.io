@@ -45,7 +45,8 @@ var _configurations = {
 声明内容
         `,
         friendslink:`
-友情链接，如其他couple群的站点...
+友情链接，例如其他couple群的站点。以下为样例：
+<!--
 <br />
 如若有相关的站点希望添加友链，则应满足如下条件:
 <br />
@@ -55,59 +56,66 @@ var _configurations = {
 <br />
 <code>命名统一为"「couple标签】+简介"的形式，couple标签中左右位随意，简介不得超过39个标准字符（含标点符号，每个全角、半角分别视为两个、一个标准字符）；</code>
 <br />
-实例:
+-->
         `,
         friendslist: [
             {   characters: ["望月穗波", "日野森志步"],
                 url: "#",
-                desc: "Description",
+                desc: "心印",
             },
             {   characters: ["星乃一歌", "望月穗波"],
-                url: "#",
-                desc: "Description",
+                url: "#", //"https://www.bilibili.com/video/av334072784/",
+                desc: "折光",
             },
             {   characters: ["星乃一歌", "日野森志步"],
-                url: "#",
-                desc: "Description",
+                url: "#", //"https://www.bilibili.com/video/av673241508/",
+                desc: "风羽",
             },
             {   characters: ["天马咲希", "望月穗波"],
-                url: "#",
-                desc: "Description",
+                url: "#", //"https://www.bilibili.com/video/av464699661/",
+                desc: "沙城",
             },
             {   characters: ["天马咲希", "日野森志步"],
-                url: "#",
-                desc: "Description",
+                url: "#", //"https://www.bilibili.com/video/av205048855/",
+                desc: "丑马",
             },
             {   characters: ["青柳冬弥", "天马咲希"],
-                url: "#",
-                desc: "Description",
+                url: "#", //"https://www.bilibili.com/video/av505834667/",
+                desc: "灯塔",
             },
             {   characters: ["天马司", "天马咲希"],
+                url: "#", //"https://www.bilibili.com/video/av291530455/",
+                desc: "夏虫",
+            },
+            {   characters: ["星乃一歌", "宵崎奏"],
                 url: "#",
-                desc: "Description",
+                desc: "初岚",
+            },
+            {   characters: ["星乃一歌", "草薙宁宁"],
+                url: "#",
+                desc: "你好",
             },
         ],
         rightpart: [
             {   desc: "About us",
                 content: `
 关于我们
-<br />
-<del>(大概也就一句话...更多的可以在上面写)</del>
                 `,
             },
             {   desc: "Location(s)",
                 content: `
-<a href="https://zh.moegirl.org.cn/Leo/need#Leo/need的“SEKAI”">Sekai of Classrooms</a>
-(教室的Sekai);
-<br />
-某家医院；
-<br />
-某处花店；
-<br />
-某公园，及其攀爬架；
-<br />
-<a href="https://zh.moegirl.org.cn/宫益坂女子学园">Miyamasuzaka Female Academy</a>, Class 1-C of Senior High
-(宫益坂女子学园，高中部1-C);
+<ul>
+<li><a href="https://zh.moegirl.org.cn/Leo/need#Leo/need的“SEKAI”">Sekai of Classrooms</a> (教室的Sekai);
+</li>
+<li>某家医院；
+</li>
+<li>某处花店；
+</li>
+<li>某公园，及其攀爬架；
+</li>
+<li><a href="https://zh.moegirl.org.cn/宫益坂女子学园">Miyamasuzaka Female Academy</a>, Class 1-C of Senior High (宫益坂女子学园，高中部1-C);
+</li>
+</ul>
                 `,
             },
             {   desc: "Social",
@@ -115,10 +123,21 @@ var _configurations = {
 QQ-Group (QQ群号): <code>200708313965</code>
                 `,
             },
+            {   desc: "Construction",
+                content: `<ul>
+<li>世界ノ敵P
+</li>
+<li>折光P
+</li>
+<li>初嵐P
+</li>
+</ul>
+                `,
+            },
         ],
     },
     copyright: [
-        {   content: `&copy; Untitled`,
+        {   content: `&copy; ICHISAKI Flora Shop`,
         },
         {   content: `Design: <a href="https://html5up.net">HTML5 UP</a>.Massively`,
         },
