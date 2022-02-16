@@ -63,6 +63,7 @@ var _configurations = {
                 url: "#",
                 desc: "心印",
             },
+            /*
             {   characters: ["星乃一歌", "望月穗波"],
                 url: "#", //"https://www.bilibili.com/video/av334072784/",
                 desc: "折光",
@@ -95,6 +96,7 @@ var _configurations = {
                 url: "#",
                 desc: "你好",
             },
+            */
         ],
         rightpart: [
             {   desc: "About us",
@@ -119,27 +121,29 @@ var _configurations = {
                 `,
             },
             {   desc: "Social",
-                content: `
-QQ-Group (QQ群号): <code>200708313965</code>
-                `,
-            },
-            {   desc: "Construction",
                 content: `<ul>
-<li>世界ノ敵P
-</li>
-<li>折光P
-</li>
-<li>初嵐P
+<li>QQ-Group (QQ群号): <code>159857422</code>
 </li>
 </ul>
                 `,
             },
+            /*
+            {   desc: "Construction",
+                content: `<ul>
+<li><a href="https://sandyzikun.github.io/">凪坤</a> (GitHub<code>@<a href="https://github.com/sandyzikun/">sandyzikun</a></code>)
+</li>
+</ul>
+                `,
+            },
+            */
         ],
     },
     copyright: [
         {   content: `&copy; ICHISAKI Flora Shop`,
         },
         {   content: `Design: <a href="https://html5up.net">HTML5 UP</a>.Massively`,
+        },
+        {   content: `Construct: <a href="https://sandyzikun.github.io/">凪坤</a> (GitHub<code>@<a href="https://github.com/sandyzikun/">sandyzikun</a></code>)`
         },
     ]
 };
