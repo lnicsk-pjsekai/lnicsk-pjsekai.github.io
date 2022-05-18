@@ -35,15 +35,25 @@ var _config_index = {
             cover: "images/Card_7.jpeg",
             moreicon: "arrow",
         },
-        /*{   date: "March 14<sup>th</sup>, 2022",
-            desc: [ "12H-Event", "of Whiteday 2022", "for ICHISAKI" ],
-            url: "whiteday-12hevent-2022/",
+        {   date: "May 20<sup>th</sup>, 2022",
+            desc: [ "12H-Event", "of May20th, 2022", "for ICHISAKI" ],
+            url: "netvalent-12hevent-2022/",
             content: `
-icsk 2022年 白色情人节12h行动
+<blockquote>
+我们都在继续　这远恋
+<br />
+不知何时　才会辗转见到那终点？
+<br />
+期待某天　我们能再靠近一点点
+<br />
+能去看见　那张莫名熟悉的　你微笑的脸
+<br />
+----<strong> Atunemic </strong>-<em> 遠戀 </em>
+</blockquote>icsk 2022 5.20 12h行动
             `,
             cover: "images/Card_316.jpeg",
             moreicon: "angle-double",
-        },*/
+        },
     ],
 };
 (($) => {
